@@ -5,5 +5,6 @@ export interface ImageKitOptions {
   sdkVersion?: string;
   publicKey?: string;
   authenticationEndpoint?: string;
+  authenticationEndpointHeaders?: { [key: string]: string };
   transformationPosition?: TransformationPosition;
 }
